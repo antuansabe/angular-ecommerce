@@ -13,11 +13,15 @@ import { Product } from '../product.model';
 
 @Component({
     selector: 'app-product',
-    templateUrl: '../components/product.component.html'
+    templateUrl: '../components/product.component.html',
+    styleUrls: ['../components/product.component.scss']
 })
 export class ProductComponent implements OnInit, DoCheck, OnDestroy {
     @Input() product: Product;
     @Output() productClicked: EventEmitter<any> = new EventEmitter();
+
+    today = new Date();
+
 
     constructor() {
         console.log('constructor');
