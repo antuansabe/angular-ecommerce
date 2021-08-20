@@ -2,7 +2,7 @@ import { Component, OnInit, AfterContentInit } from '@angular/core';
 import Swiper from 'swiper';
 @Component({
   selector: 'app-home',
-  templateUrl: './home.component.html',
+  templateUrl: '../home/home.component.html',
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
