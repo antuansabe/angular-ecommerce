@@ -3,9 +3,6 @@ import { Component,
     OnDestroy,
     Output,
     EventEmitter,
-    OnChanges,
-    SimpleChange, 
-    SimpleChanges,
     OnInit, 
     DoCheck} 
     from '@angular/core';
@@ -14,7 +11,7 @@ import { Product } from '../../../product.model';
 
 @Component({
     selector: 'app-product',
-    templateUrl: '../product/product.component.html',
+    templateUrl: './product.component.html',
     styleUrls: ['../product/product.component.scss']
 })
 export class ProductComponent implements OnInit, DoCheck, OnDestroy {
