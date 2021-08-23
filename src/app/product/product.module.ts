@@ -21,9 +21,7 @@ import { MaterialModule } from './../material/material.module';
     ProductRoutingModule,
     MaterialModule
   ],
-  exports : [
-      MaterialModule
-  ]
+  
 })
 export class ProductModule {
 

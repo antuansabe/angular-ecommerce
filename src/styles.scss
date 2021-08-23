@@ -3,7 +3,10 @@
 .product-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 5px;
+    grid-gap: 50px 20px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
 }
 
 @media (min-width: 576px) {

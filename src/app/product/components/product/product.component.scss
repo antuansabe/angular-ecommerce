@@ -1,9 +1,51 @@
 :host {
     margin: 2px;
-    border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     border-radius: 5px;
     display: block;
 }
+h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+strong {
+    margin-left: 10px;
+}
+
 img{
     max-width: 100%;
+}
+button {
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width:115px;
+    height: 45px;
+    color: white;
+    font-family:Helvetica, sans-serif;
+    background-color: #673AB7;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 3.6px;
+}
+
+.view{
+    border-radius: 5px;
+    border-style: none;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width:115px;
+    height: 45px;
+    color: white;
+    font-family:Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 3.6px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    
 }

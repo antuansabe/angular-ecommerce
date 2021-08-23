@@ -11,7 +11,7 @@ import { Product } from '../../../product.model';
 
 @Component({
     selector: 'app-product',
-    templateUrl: './product.component.html',
+    templateUrl: '../product/product.component.html',
     styleUrls: ['../product/product.component.scss']
 })
 export class ProductComponent implements OnInit, DoCheck, OnDestroy {
